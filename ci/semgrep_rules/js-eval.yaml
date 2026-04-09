@@ -3,6 +3,7 @@ rules:
     pattern-either:
       - pattern: "eval(...)"
       - pattern: "new Function(...)"
-    message: "dynamic code execution detected (eval / Function)"
+    message: "dynamic code execution detected (eval / Functions)"
     severity: ERROR
     languages: [javascript]
+    
