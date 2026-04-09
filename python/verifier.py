@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Verifier using cryptography.hazmat to verify signatures created by signer.py.
 Prefer cosign for production verification; this script verifies a raw signature against a public key.
+hubgitbuh/gasha...
 """
 import argparse, hashlib
 from pathlib import Path
