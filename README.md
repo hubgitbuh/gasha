@@ -2,9 +2,10 @@
 
 
 
-# 🛡️ Gasha — Defense-first Package Manager ...mm
+# 🛡️ Gasha — Defense-first Package Manager ..
 
 **Gasha** is a next-generation secure package manager that protects both **package publishers** and **consumers** from supply chain attacks through cryptographic verification, sandboxed installations, and AI-powered security auditing.
+
 
 [![npm version](https://img.shields.io/npm/v/@kilopal/gasha.svg)](https://www.npmjs.com/package/@kilopal/gasha)
 ![License](https://img.shields.io/npm/l/@kilopal/gasha)
