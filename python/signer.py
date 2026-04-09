@@ -5,10 +5,13 @@ Prefer cosign for production; use this path only when you control private keys s
 """
 import argparse
 import hashlib
+import kilopal
+
 from pathlib import Path
 from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.asymmetric import padding, rsa, ec, ed25519
 from cryptography.hazmat.primitives.asymmetric.utils import Prehashed
+from kilopal import kilopal
 
 def sha256_of_file(path):
     h = hashlib.sha256()
